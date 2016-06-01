@@ -1,0 +1,168 @@
+ body {
+      position: relative; 
+  }
+  #section1 {margin-top:50px;padding-top:50px;height:700px;color: #fff; background-color: #009688;
+background-image:url("http://www.piefactorymusic.com/wp-content/uploads/2016/02/coding.jpg");;
+    background-attachment: fixed;}
+  #section2 {padding-top:50px;height:900px;color: #fff; background-image: url("https://download.unsplash.com/photo-1429051883746-afd9d56fbdaf"); background-repeat: no-repeat;
+    background-attachment: fixed;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:600px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;} 
+.no-back { 
+  background-color:#fff; overflow:hidden;
+  display:inline-block; 
+  font-weight:bold;
+  font-family:arial;
+  font-size:200%;
+}
+span { 
+  background: url(http://www.piefactorymusic.com/wp-content/uploads/2016/02/coding.jpg) -20px -20px repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  display:block;
+}
+.personal-list {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+.personal-li:before { 
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+.team{
+    padding:75px 0;
+}
+h6.description{
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #999;
+	border-bottom: 1px solid rgba(0, 0, 0,0.1);
+	padding-bottom: 5px;
+}
+.profile{
+	margin-top: 25px;
+}
+.profile h1{
+	font-weight: normal;
+	font-size: 20px;
+	margin:10px 0 0 0;
+}
+.profile h2{
+	font-size: 14px;
+	font-weight: lighter;
+	margin-top: 5px;
+}
+.profile .img-box{
+	opacity: 1;
+	display: block;
+	position: relative;
+}
+.profile .img-box:after{
+	content:"";
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+.img-box ul{
+	position: absolute;
+	z-index: 2;
+	bottom: 50px;
+	text-align: center;
+	width: 100%;
+	padding-left: 0px;
+	height: 0px;
+	margin:0px;
+	opacity: 0;
+}
+.profile .img-box:after, .img-box ul, .img-box ul li{
+	-webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.img-box ul i{
+	font-size: 20px;
+	letter-spacing: 10px;
+}
+.img-box ul li{
+	width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #88C425;
+    margin: 2px;
+    padding: 5px;
+	display: inline-block;
+}
+.img-box a{
+	color:#fff;
+}
+.img-box:hover:after{
+	opacity: 1;
+}
+.img-box:hover ul{
+	opacity: 1;
+}
+.img-box ul a{
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+.img-box a:hover li{
+	border-color: #fff;
+	color: #88C425;
+}
+a{
+    color:#88C425;
+}
+a:hover{
+    text-decoration:none;
+    color:#519548;
+}
+i.red{
+    color:#BC0213;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 280px;
+  background-image:
+  /* color overlay */ 
+    
+    /* image to overlay */
+    url(http://www.wrightjoneslaw.com/images/footer-bg.jpg);
+}
+
+
+/* Custom footer CSS
+-------------------------------------------------- */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+.footertext {
+  color: #00000;
+}
